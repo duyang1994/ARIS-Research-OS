@@ -53,7 +53,7 @@ class ThreadState:
     name: str
     state: str = "PLANNED"
     dependency: str = ""
-    gate: str = ""
+    gate_name: str = ""          # P-1: matches the SQLite column name in store.SCHEMA
     next_action: str = ""
     human_review_required: bool = False
     updated_at: str = field(default_factory=now_iso)
