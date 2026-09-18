@@ -1,0 +1,9 @@
+[project]
+name = "aris-research-os"
+version = "0.1.0"
+description = "Local-first research orchestration framework"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+aris = "aris_os.cli:main"

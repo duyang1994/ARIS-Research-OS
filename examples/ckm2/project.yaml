@@ -1,0 +1,21 @@
+project:
+  id: CKM2-PAPER1
+  name: CKM Stage 4 Dynamic Phenotyping
+  root: D:\20260916CKM2
+  design_document: CKM_Stage4_初步研究计划.md
+
+agents:
+  professor: enabled
+  executor: ARIS
+  writer: planned
+  reviewer: planned
+  literature: planned
+  figure_curator: planned
+
+current_gates:
+  - GATE_CKM4_DEFINITION
+  - GATE_EXTERNAL_TRANSPORT_FEASIBILITY
+  - GATE_INFRASTRUCTURE_REPRODUCIBILITY
+
+notes:
+  - CKM-specific definitions belong to the project, not the generic Skill.

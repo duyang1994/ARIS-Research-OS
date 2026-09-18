@@ -1,0 +1,14 @@
+.aris/
+__pycache__/
+*.pyc
+.env
+*pgpass*
+*credential*
+*secret*
+test/_cache/
+*.parquet
+*.feather
+*.pkl
+*.rds
+*.sqlite
+*.sqlite3
