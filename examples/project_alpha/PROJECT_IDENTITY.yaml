@@ -1,0 +1,37 @@
+# Synthetic example only. No real data or people.
+
+project_id: PROJECT-ALPHA
+project_title: Project Alpha Synthetic Example
+canonical_root: C:\Research\ProjectAlpha
+project_type: EXAMPLE
+
+scientific_question: Does a fictional intervention affect a fictional outcome?
+population: fictional population
+primary_analysis_unit: one record per fictional subject
+primary_anchor: fictional index event
+primary_window: 0-7 days
+feature_space: fictional features A, B, C
+primary_endpoint: fictional endpoint
+external_validation_strategy: not applicable in example
+
+current_freeze_id: ""
+authoritative_design_file: design/CURRENT_DESIGN.md
+authoritative_decision_register: governance/DECISION_REGISTER.md
+
+forbidden_project_roots:
+  - C:\Research\ProjectBeta
+
+foreign_project_signatures:
+  - PROJECT-BETA
+
+write_boundaries:
+  - analysis/
+  - freezes/
+  - manuscript/
+  - audits/
+
+raw_data_boundaries:
+  - C:\Research\ProjectAlpha\raw_data
+
+approved_external_sources:
+  - none

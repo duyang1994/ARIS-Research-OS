@@ -1,0 +1,49 @@
+# PROJECT_IDENTITY.yaml
+#
+# This file is the single authoritative declaration of which project an agent
+# is operating on. It is consumed by GATE_PROJECT_IDENTITY before any
+# substantive execution. Complete it with human review; do not infer
+# scientific definitions automatically.
+
+project_id: PLACEHOLDER
+project_title: PLACEHOLDER
+canonical_root: D:\PLACEHOLDER
+project_type: PLACEHOLDER
+
+scientific_question: PLACEHOLDER
+population: PLACEHOLDER
+primary_analysis_unit: PLACEHOLDER
+primary_anchor: PLACEHOLDER
+primary_window: PLACEHOLDER
+feature_space: PLACEHOLDER
+primary_endpoint: PLACEHOLDER
+external_validation_strategy: PLACEHOLDER
+
+current_freeze_id: ""
+authoritative_design_file: design/CURRENT_DESIGN.md
+authoritative_decision_register: governance/DECISION_REGISTER.md
+
+# Roots that must never be referenced by this project.
+forbidden_project_roots:
+  - PLACEHOLDER
+
+# Signatures that identify foreign projects. Any unexplained occurrence in a
+# task or path must stop execution.
+foreign_project_signatures:
+  - PLACEHOLDER
+
+# Only write inside canonical_root unless a cross-project write is explicitly
+# authorized by a human decision.
+write_boundaries:
+  - analysis/
+  - freezes/
+  - manuscript/
+  - audits/
+
+# Raw data roots. These are read-only by default.
+raw_data_boundaries:
+  - PLACEHOLDER
+
+# Explicitly approved external input sources.
+approved_external_sources:
+  - PLACEHOLDER

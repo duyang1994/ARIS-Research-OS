@@ -1,0 +1,26 @@
+# PROJECT_NAMESPACE.yaml
+#
+# Used in multi-project environments to prevent cross-project confusion.
+
+project_id: PLACEHOLDER
+canonical_root: D:\PLACEHOLDER
+
+aliases:
+  - PLACEHOLDER
+
+scientific_signatures:
+  - PLACEHOLDER
+
+forbidden_signatures:
+  - PLACEHOLDER
+
+related_projects:
+  - PLACEHOLDER
+
+allowed_cross_project_reads:
+  - PLACEHOLDER
+
+allowed_cross_project_writes:
+  - PLACEHOLDER
+
+cross_project_write: false

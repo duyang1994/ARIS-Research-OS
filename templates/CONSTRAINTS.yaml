@@ -1,0 +1,24 @@
+# CONSTRAINTS.yaml
+#
+# Agents must consult this file before execution. Constraints are separated
+# into HARD, FROZEN, SOFT, and EXPERIMENTAL.
+
+HARD:
+  raw_data_read_only: true
+  no_cross_project_write: true
+  external_data_no_refit: true
+  no_runtime_only_authoritative_object: true
+
+FROZEN:
+  analysis_unit: PLACEHOLDER
+  window: PLACEHOLDER
+  anchor: PLACEHOLDER
+  feature_space: PLACEHOLDER
+  primary_endpoint: PLACEHOLDER
+
+SOFT:
+  preferred_figure_format: svg/pdf/png
+  preferred_table_format: csv
+
+EXPERIMENTAL:
+  broad_sensitivity_pending: true

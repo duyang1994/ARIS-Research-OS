@@ -1,0 +1,10 @@
+ARIS Research OS
+Copyright 2026 Yang Du
+
+This product is inspired by the ARIS (Auto Research In Sleep) project,
+particularly the idea of autonomous and iterative research workflows.
+
+This repository is an independently implemented project. Unless a file or
+directory explicitly states otherwise, no upstream ARIS source code is bundled
+here, and inclusion here does not imply endorsement by the upstream ARIS
+authors.

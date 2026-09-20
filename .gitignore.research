@@ -1,0 +1,35 @@
+# Sample research-data gitignore.
+#
+# Copy the relevant sections into a research project's .gitignore. The ARIS
+# Research OS package does not modify your project repository automatically.
+
+# Raw and patient data must never be committed.
+raw_data/
+patient_data/
+data/raw/
+data/patient/
+
+# Secrets and credentials.
+secrets/
+credentials/
+.env
+.env.*
+*credential*
+*secret*
+*pgpass*
+
+# Runtime caches and temporary outputs.
+cache/
+tmp/
+temp/
+__pycache__/
+*.py[cod]
+*.log
+
+# Large or binary analysis outputs (adjust as needed).
+*.parquet
+*.feather
+*.pkl
+*.rds
+*.sqlite
+*.sqlite3

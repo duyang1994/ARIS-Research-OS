@@ -1,0 +1,1 @@
+parameter_id,stage,component,parameter_name,parameter_type,value,dtype,shape,unit,seed,source,source_file,source_sha256,fit_population,derivation_method,external_data_used_YN,required_for_reproduction_YN,required_for_external_application_YN,freeze_status,notes

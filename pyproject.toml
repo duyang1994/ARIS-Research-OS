@@ -1,9 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "aris-research-os"
-version = "0.1.0"
-description = "Local-first research orchestration framework"
+version = "0.2.0"
+description = "ARIS-inspired governance layer for long-running, multi-agent scientific research"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Yang Du" },
+]
+maintainers = [
+    { name = "Yang Du" },
+]
 requires-python = ">=3.10"
 dependencies = []
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+keywords = [
+    "research",
+    "governance",
+    "reproducibility",
+    "provenance",
+    "human-in-the-loop",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7",
+]
 
 [project.scripts]
 aris = "aris_os.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["aris_os*"]

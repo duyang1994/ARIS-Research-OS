@@ -1,0 +1,15 @@
+# Synthetic example constraints.
+
+HARD:
+  raw_data_read_only: true
+  no_cross_project_write: true
+
+FROZEN:
+  analysis_unit: one record per fictional subject
+  window: 0-7 days
+
+SOFT:
+  preferred_figure_format: svg/pdf/png
+
+EXPERIMENTAL:
+  broad_sensitivity_pending: true

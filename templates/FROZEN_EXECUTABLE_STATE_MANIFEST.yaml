@@ -1,0 +1,29 @@
+# FROZEN_EXECUTABLE_STATE_MANIFEST.yaml
+#
+# A complete freeze must describe all of these components. Replace every
+# PLACEHOLDER with a real reference (file path, hash, or persisted value)
+# before running `freeze-check`.
+
+design_state: PLACEHOLDER
+cohort_definition: PLACEHOLDER
+input_contract: PLACEHOLDER
+variable_order: PLACEHOLDER
+units: PLACEHOLDER
+missingness_rules: PLACEHOLDER
+cleaning_rules: PLACEHOLDER
+scalar_parameters: PLACEHOLDER
+seeds: PLACEHOLDER
+thresholds: PLACEHOLDER
+fitted_objects: PLACEHOLDER
+runtime_derived_objects: PLACEHOLDER
+reference_population_state: PLACEHOLDER
+model_checkpoints: PLACEHOLDER
+normalization_constants: PLACEHOLDER
+calibration_objects: PLACEHOLDER
+exact_code: PLACEHOLDER
+git_sha_or_file_hashes: PLACEHOLDER
+runtime_environment: PLACEHOLDER
+output_contract: PLACEHOLDER
+smoke_test_input: PLACEHOLDER
+expected_smoke_test_output: PLACEHOLDER
+integrity_manifest: PLACEHOLDER

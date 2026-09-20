@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use ARIS Research OS, please cite it as below."
+title: ARIS Research OS
+version: 0.2.0
+authors:
+  - family-names: Du
+    given-names: Yang
+license: Apache-2.0
+type: software
+keywords:
+  - research governance
+  - reproducibility
+  - provenance
+  - human-in-the-loop
