@@ -13,7 +13,8 @@
 
 ## 与 ARIS 的关系
 
-ARIS Research OS 的灵感来自 ARIS（Auto Research In Sleep，https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep），尤其是其中「自主、迭代式研究工作流」的思想。ARIS Research OS 把这一灵感延伸到长周期科研治理上，强调：
+ARIS Research OS 的灵感来自 ARIS（Auto Research In Sleep，https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep）
+尤其是其中「自主、迭代式研究工作流」的思想。ARIS Research OS 把这一灵感延伸到长周期科研治理上，强调：
 
 - 人在环中的科学决策
 - 项目身份（project identity）
