@@ -16,7 +16,8 @@ of that problem.
 
 ## Relationship to ARIS
 
-ARIS Research OS was inspired by ARIS (Auto Research In Sleep), particularly
+ARIS Research OS was inspired by ARIS (Auto Research In Sleep，https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)
+, particularly
 the idea of autonomous and iterative research workflows. ARIS Research OS
 extends that inspiration toward long-horizon research governance, emphasizing
 human-in-the-loop scientific decisions, project identity, staged convergence,
